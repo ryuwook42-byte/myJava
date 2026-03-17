@@ -1,4 +1,4 @@
-public class PracticePrint {
+public class PracticePrint{
 
     public static void main(String[] args){
 
