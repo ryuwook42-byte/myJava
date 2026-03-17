@@ -7,5 +7,9 @@ public class World {
         System.out.println("public - 아무나/누구든지");
 
         System.out.println("private - 나만 쓸 수 있다");
+
+        System.out.println("main - 자바프로그래밍을 시작하면 가장먼저 열어줘야하는 문");
+
+        System.out.println("String[] args - String[] 문자열들을 담는 바구니([]) args - arguments 인자/배열/순서대로 나열하다");
     }
 }
