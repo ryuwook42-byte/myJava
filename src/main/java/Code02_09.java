@@ -16,5 +16,20 @@ public class Code02_09 {
         System.out.println(number1 + " - " + number2 + " = " + resSub);
         System.out.println(number1 + " * " + number2 + " = " + resMul);
         System.out.println(number1 + " / " + number2 + " = " + resDiv);
+
+        int resAdd1;
+        int resSub1;
+        int resMul1;
+        double resDiv1;
+
+        resAdd1 = number1 + number2;
+        resSub1 = number1 - number2;
+        resMul1 = number1 * number2;
+        resDiv1 = (double) number1 / number2;
+
+        System.out.println(number1 + " + " + number2 + " = " + resAdd1);
+        System.out.println(number1 + " - " + number2 + " = " + resSub1);
+        System.out.println(number1 + " * " + number2 + " = " + resMul1);
+        System.out.println(number1 + " / " + number2 + " = " + resDiv1);
     }
 }
