@@ -4,7 +4,7 @@ public class High {
 
         System.out.println(aaa(1));
         System.out.println(aaa(2));
-        System.out.print(aaa(4));
+        System.out.print(aaa(3));
     }
 
     public static String aaa(int x) {
