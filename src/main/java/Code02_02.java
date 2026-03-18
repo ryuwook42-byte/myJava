@@ -1,7 +1,6 @@
 public class Code02_02 {
 
     public static void main(String[] args) {
-
         int num1, num2, result;
 
         num1 = 100;
