@@ -17,7 +17,7 @@ public class Exam02 {
         System.out.print(three);
 
         double z = (double) x / y;
-        System.out.printf(x + " 나누기 " + y + "는" + z + "입니다.");
+        System.out.printf(x + " 나누기 " + y + "는 " + z + "입니다.");
 
         a.close();
     }
