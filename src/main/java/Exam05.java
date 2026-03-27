@@ -14,5 +14,4 @@ public class Exam05 {
         System.out.printf("%d / %d = %.1f \n", a, b, (double) a / b);
         x.close();
     }
-
 }
