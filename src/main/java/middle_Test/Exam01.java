@@ -7,7 +7,7 @@ public class Exam01 {
 
         for(int i = 0; i < n; i++) {
             String str = "";
-            for (int j = 0; j < n - i; j++) str += " ";
+            for (int j = 0; j < n - i-1; j++) str += " ";
             for (int j = 0; j < i * 2 + 1; j++) str += "*";
             System.out.println(str);
         }
