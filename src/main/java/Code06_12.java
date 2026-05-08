@@ -17,4 +17,36 @@ public class Code06_12 {
             break;
         }
     }
+
+    static class Rabbit {
+        private String shape;
+        private int xPos;
+        private int yPos;
+
+        Rabbit(){
+            shape = "토끼";
+        }
+
+        Rabbit(String value){
+            shape = value;
+        }
+
+        public void setPosition(int x, int y){
+            this.xPos = x;
+            this.yPos = y;
+        }
+        public void setShape(String shape){
+            this.shape = shape;
+        }
+        public String getShape(){
+            return this.shape;
+        }
+        public int getX() {
+            return this.xPos;
+        }
+        public int getY(){
+            return this.yPos;
+        }
+
+    }
 }
