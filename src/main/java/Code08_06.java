@@ -9,7 +9,7 @@ class Rabbit6{
 }
 
 class HouseRabbit6 extends Rabbit6{
-    void main(int x, int y){
+    void move(int x, int y){
         this.xPos = x;
         this.yPos = y;
 
@@ -21,7 +21,10 @@ class HouseRabbit6 extends Rabbit6{
 }
 
 class MountainRabbit6 extends Rabbit6{
-
+    @Override
+    void move(int x, int y) {
+        super.move(x, y);
+    }
 }
 
 public class Code08_06 {
